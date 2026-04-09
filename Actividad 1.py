@@ -1,7 +1,10 @@
-print("Hello, World!")
-# Este es un comentario de una sola línea en Español Latinoamérica
-print ("Introduzca un valor")
-input_value = input()
-"""Este es un comentario de varias líneas en Español Latinoamérica
-que abarca múltiples espacios."""
-
+print(type(200))
+print(type(3.14))
+print(type("Hello"))
+z1 = 3 + 4j
+z2 = 5j  # Pure imaginary (0 + 5j)
+print(type(z1))
+module = 10 % 3
+print(module)
+div = 10 // 3
+print(div)
