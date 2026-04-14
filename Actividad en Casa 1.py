@@ -4,6 +4,7 @@ print("Python Version: ")
 print(sys.version)
 
 # Operaciones con los valores de 3 y 4
+
 a = 3
 b = 4
 
@@ -31,3 +32,4 @@ print(type("Finland"))
 print(type("Mino"))
 print(type("Ecuador"))
 # Fin del programa
+# %%
