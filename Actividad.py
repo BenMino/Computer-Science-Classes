@@ -30,3 +30,4 @@ print(type("Python"))
 print(type("Finland"))
 print(type("Mino"))
 print(type("Ecuador"))
+# Fin del programa
