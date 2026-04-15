@@ -62,9 +62,9 @@ radio_usuario = float(input("Ingresa el radio del círculo: "))
 area_usuario = pi * radio_usuario ** 2
 print("Área con radio ingresado:", area_usuario)
 
-nombre_user = input("Ingresa tu nombre: ")
-apellido_user = input("Ingresa tu apellido: ")
-pais_user = input("Ingresa tu país: ")
+nombre_user = str(input("Ingresa tu nombre: "))
+apellido_user = str(input("Ingresa tu apellido: "))
+pais_user = str(input("Ingresa tu país: "))
 edad_user = int(input("Ingresa tu edad: "))
 
 help('keywords')
