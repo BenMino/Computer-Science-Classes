@@ -52,3 +52,20 @@ print("Residuo:", residuo)
 print("Potencia:", potencia)
 print("División entera:", divisionEntera)
 
+radio = 30
+pi = 3.1416
+areaCirculo = pi * radio ** 2
+print("Área del círculo:", areaCirculo)
+circunferenciaCirculo = 2 * pi * radio
+print("Circunferencia del círculo:", circunferenciaCirculo)
+radio_usuario = float(input("Ingresa el radio del círculo: "))
+area_usuario = pi * radio_usuario ** 2
+print("Área con radio ingresado:", area_usuario)
+
+nombre_user = input("Ingresa tu nombre: ")
+apellido_user = input("Ingresa tu apellido: ")
+pais_user = input("Ingresa tu país: ")
+edad_user = int(input("Ingresa tu edad: "))
+
+help('keywords')
+
