@@ -19,4 +19,3 @@ print(type(first_name))
 first_name, last_name, country, age, is_married = 'Ben', 'Mino', 'Ecuador', 15, False
 print("Primer nombre:", first_name)
 print("Apellido:", last_name)
-
