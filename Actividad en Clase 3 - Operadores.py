@@ -33,7 +33,15 @@ pi = 3.14
 area_circulo = pi * radio * radio
 circunferencia = 2 * pi * radio
 print("Área círculo:", area_circulo)
-print("Circunferencia:", circunferencia)
+print("Circunferencia círculo:", circunferencia)
+
+# Pendiente y distancia entre dos puntos
+x1, y1 = 2, 2
+x2, y2 = 5, 6
+pendiente = (y2 - y1) / (x2 - x1)
+distancia = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+print("Pendiente entre los puntos:", pendiente)
+print("Distancia entre los puntos:", distancia)
 
 
 
