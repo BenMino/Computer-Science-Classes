@@ -43,5 +43,51 @@ distancia = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
 print("Pendiente entre los puntos:", pendiente)
 print("Distancia entre los puntos:", distancia)
 
+# Función y = x² + 6x + 9 
+x = -3 
+y = x**2 + 6*x + 9 
+print("y:", y) 
 
+# Longitud y comparación 
+print(len("python") == len("dragón")) 
 
+# Verificar 'on' en ambas palabras 
+print("on" in "python" and "on" in "dragón") 
+
+# Verificar palabra en oración 
+oracion = "Espero que este curso no esté lleno de jerga" 
+print("jerga" in oracion) 
+
+# Verificar 'on' en python y dragon 
+print("on" in "python" and "on" in "dragon") 
+
+# Longitud a float y string 
+valor = len("python") 
+print(str(float(valor))) 
+
+# División entera vs entero 
+print(7 // 3 == int(2.7)) 
+
+# Comparar tipos 
+print(type("10") == type(10)) 
+
+# Comparación int 
+print(int(float("9.8")) == 10) 
+
+# Calcular pago 
+horas = float(input("Ingrese horas: ")) 
+tarifa = float(input("Ingrese tarifa por hora: ")) 
+pago = horas * tarifa 
+print("Pago:", pago) 
+
+# Segundos vividos 
+anios = int(input("Ingrese años: ")) 
+segundos = anios * 365 * 24 * 60 * 60 
+print("Segundos vividos:", segundos) 
+
+# Mostrar tabla 
+print("1 1 1 1 1") 
+print("2 1 2 4 8") 
+print("3 1 3 9 27") 
+print("4 1 4 16 64") 
+print("5 1 5 25 125") 
