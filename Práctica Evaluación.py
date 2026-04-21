@@ -31,7 +31,7 @@
 # import sys; print(sys.version)
 
 # e)
-# import keyword; print(keyword.kwlist)
+# help('keywords')
 
 
 # ===== PARTE B =====
