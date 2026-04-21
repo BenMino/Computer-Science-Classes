@@ -15,4 +15,6 @@ print(full_name)
 print(str("Python\nChallenge"))
 print("Nombre\tSemana1\tSemana2\tSemana3")
 print("símbolo@\\\"")
+print(f"Mi nombre es {name} y mi apellido es {last_name}")
+
 
