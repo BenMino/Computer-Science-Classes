@@ -4,9 +4,10 @@ Programación 1
 Actividad 4 (Strings)"""
 print(stringVariasLineas)
 
-colegio = str("Colegio ISM North")
-print(len(colegio))
-
-ciudad = "Newcastle"
+ciudad = str("Newcastle")
 print(len(ciudad))
 
+name = str("Ben")
+last_name = str("Mino")
+full_name = name + " " + last_name
+print(full_name)
