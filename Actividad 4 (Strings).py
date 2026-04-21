@@ -17,4 +17,7 @@ print("Nombre\tSemana1\tSemana2\tSemana3")
 print("símbolo@\\\"")
 print(f"Mi nombre es {name} y mi apellido es {last_name}")
 
+language = "Python"
+a, b, c, d, e, f = language
+print(a)
 
