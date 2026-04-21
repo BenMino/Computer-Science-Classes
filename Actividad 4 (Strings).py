@@ -13,3 +13,6 @@ full_name = name + " " + last_name
 print(full_name)
 
 print(str("Python\nChallenge"))
+print("Nombre\tSemana1\tSemana2\tSemana3")
+print("símbolo@\\\"")
+
