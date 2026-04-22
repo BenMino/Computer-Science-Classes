@@ -64,4 +64,31 @@ print("Frase modificada: " + frase)
 palabras = frase.split()
 print("Palabras en la frase: " + str(palabras))
 
+# ===== PARTE C =====
+
+# Respuesta 5:  Desarrollo de programa (40 puntos) 
+
+nombre = str(input("Ingrese su nombre: "))
+apellido = str(input("Ingrese su apellido: "))
+pais = str(input("Ingrese su país: "))
+
+ancho_vitrina = float(input("Ingrese el ancho de la pared: "))
+alto_vitrina = float(input("Ingrese el alto de la pared: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+
+area = ancho_vitrina * alto_vitrina
+costo_total = area * precio
+
+nombre_completo = nombre + " " + apellido
+
+print(f"\n--- REPORTE FINAL ---")
+print(f"Nombre completo: {nombre_completo}")
+print(f"País: {pais}")
+print(f"Área calculada: {area}")
+print(f"Costo total: {costo_total}")
+
+print("Mayúsculas: ", nombre_completo.upper())
+print("Longitud: ", len(nombre_completo))
+print("¿Letra a presente?: ", "a" in nombre_completo.lower())
+print("¿Costo total mayor que 100?: ", costo_total > 100)
 
