@@ -72,8 +72,8 @@ nombre = str(input("Ingrese su nombre: "))
 apellido = str(input("Ingrese su apellido: "))
 pais = str(input("Ingrese su país: "))
 
-ancho_vitrina = float(input("Ingrese el ancho de la pared: "))
-alto_vitrina = float(input("Ingrese el alto de la pared: "))
+ancho_vitrina = float(input("Ingrese el ancho de la vitrina: "))
+alto_vitrina = float(input("Ingrese el alto de la vitrina: "))
 precio = float(input("Ingrese el precio por metro cuadrado: "))
 
 area = ancho_vitrina * alto_vitrina
@@ -87,8 +87,8 @@ print(f"País: {pais}")
 print(f"Área calculada: {area}")
 print(f"Costo total: {costo_total}")
 
-print("Mayúsculas: ", nombre_completo.upper())
-print("Longitud: ", len(nombre_completo))
-print("¿Letra a presente?: ", "a" in nombre_completo.lower())
+print("Nombre en mayúsculas: ", nombre_completo.upper())
+print("Longitud del nombre: ", len(nombre_completo))
+print("¿Letra a presente en nombre?: ", "a" in nombre_completo.lower())
 print("¿Costo total mayor que 100?: ", costo_total > 100)
 
