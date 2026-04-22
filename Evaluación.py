@@ -91,4 +91,3 @@ print("Nombre en mayúsculas: ", nombre_completo.upper())
 print("Longitud del nombre: ", len(nombre_completo))
 print("¿Letra a presente en nombre?: ", "a" in nombre_completo.lower())
 print("¿Costo total mayor que 100?: ", costo_total > 100)
-
