@@ -87,7 +87,13 @@ print(f"País: {pais}")
 print(f"Área calculada: {area}")
 print(f"Costo total: {costo_total}")
 
-print("Nombre en mayúsculas: ", nombre_completo.upper())
-print("Longitud del nombre: ", len(nombre_completo))
-print("¿Letra a presente en nombre?: ", "a" in nombre_completo.lower())
-print("¿Costo total mayor que 100?: ", costo_total > 100)
+mayusculas = nombre_completo.upper()
+longitud_nombre = len(nombre_completo)
+letra_a_presente = "a" in nombre_completo
+costo_mayor_100 = costo_total > 100
+
+print(f"Nombre en mayúsculas: {mayusculas}")
+print(f"Longitud del nombre: {longitud_nombre}")
+print(f"¿Letra a presente en nombre?: {letra_a_presente}")
+print(f"¿Costo total mayor que 100?: {costo_mayor_100}")
+
