@@ -44,7 +44,6 @@ iniciales_apellido = apellido[0]
 print("Acrónimo:", iniciales_nombre + iniciales_apellido)
 
 challenge = 'thirty days of python'
-print(challenge.replace('python', 'coding')) # 'thirty days of coding'
-
+print(challenge.replace('python', 'coding')) # 'thirty days of coding' 
 
 
