@@ -29,3 +29,8 @@ elif number < 0 and number % 2 != 0:
 else:
     print('The number is zero')  
 print('This is the end of the program')
+
+#SHORTHAND
+number = int(input('Enter a number: '))
+print('The number is zero') if number == 0 else print('The number is a positive and even') if number > 0 and number % 2 == 0 else print('The number is a positive and odd') if number > 0 and number % 2 != 0 else print('The number is a negative and even') if number < 0 and number % 2 == 0 else print('The number is a negative and odd')
+print('This is the end of the program')
