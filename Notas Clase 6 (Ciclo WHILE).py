@@ -1,5 +1,6 @@
-count = 0
+count = 1
 while count < 5:
-    print(count)
+    print(f"This is the {count} lap.")
     count = count + 1
-#prints from 0 to 4
+else:
+    print(f"This is the {count} lap.")
