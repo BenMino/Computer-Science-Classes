@@ -8,7 +8,9 @@ for number in numbers:
 
 values = [2, 4, 6, 8, 10]
 sum = 0
+counter = 0
 for value in values:
-    sum = sum + value
-average = sum/len(values)
-print(average)
+    counter += 1
+    sum += value
+average = sum/counter
+print(f"The average is: {average}")
