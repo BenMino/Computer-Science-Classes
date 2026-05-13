@@ -27,3 +27,7 @@ for letter in word:
 print(f"The number of vowels is: {vowels}")
 print(f"The number of consonants is: {consonant}")
 print(f"The total of words is: {lenght}")
+
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Facebook'}
+for company in it_companies:
+    print(company)
