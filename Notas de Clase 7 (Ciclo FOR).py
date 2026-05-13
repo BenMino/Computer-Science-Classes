@@ -32,7 +32,7 @@ it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Am
 for company in it_companies:
     print(company)
 
-list = (0,10,20,30,40,50)
+list = [0,10,20,30,40,50]
 numbers = input("Enter a number: ")
 for number in list:
     if numbers == str(number):
@@ -40,3 +40,11 @@ for number in list:
         break
 else:
     print("Number not found.")
+
+idvalue = input("Enter ID number: ")
+idclean = ""
+for character in idvalue:
+    if character == "-" or character == " ":
+        continue
+    idclean = idclean + character
+print(idclean)
