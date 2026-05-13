@@ -31,3 +31,12 @@ print(f"The total of words is: {lenght}")
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Facebook'}
 for company in it_companies:
     print(company)
+
+numbers = (0,1,2,3,4,5)
+for number in numbers:
+    if number == 1000:
+        print("Number found!")
+        break
+else:
+    print("Number not found.")
+
