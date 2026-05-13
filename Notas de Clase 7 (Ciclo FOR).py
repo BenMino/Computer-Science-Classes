@@ -32,11 +32,11 @@ it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Am
 for company in it_companies:
     print(company)
 
-numbers = (0,1,2,3,4,5)
-for number in numbers:
-    if number == 1000:
+list = (0,10,20,30,40,50)
+numbers = input("Enter a number: ")
+for number in list:
+    if numbers == str(number):
         print("Number found!")
         break
 else:
     print("Number not found.")
-
